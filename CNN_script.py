@@ -1,11 +1,8 @@
 from mly.datatools import DataPod, DataSet, generator
 
-# Python packages that we will need
+
 import os
-
 import matplotlib.pyplot as plt
-# Setting a proper plotting format
-
 from math import ceil
 
 import matplotlib.pyplot as plt
@@ -151,4 +148,3 @@ hist = model.fit(
     callbacks=[es,clr]
 )
 
-model.save('/home/edoardo.micheletti/model_tutorials/Models/Saved_models/3BranchQuiV2.keras')
